@@ -118,9 +118,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 220px !important;
+    height: 400px !important;
   }
 
   .variants {
-    margin-top: 140px;
+    margin-top: 130px;
+  }
+
+  .body{
+    height: 400px !important;
+    width: 50px !important;
   }
 }

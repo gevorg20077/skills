@@ -10,13 +10,11 @@
   height: 40px;
   background-color: #035680;
   display: flex;
-  align-items: center;
   font-weight: 400;
   color: white;
   justify-content: end;
   border-end-start-radius: 20px;
   border-start-start-radius: 20px;
-  transition: .3s all;
 }
 
 .skills .skill .now {
@@ -38,7 +36,7 @@
 }
 
 .skill-CSS {
-  width: 270px;
+  width: 280px;
 }
 
 .skill-CSS-now {
@@ -46,11 +44,11 @@
 }
 
 .skill-JS {
-  width: 300px;
+  width: 280px;
 }
 
 .skill-JS-now {
-  width: 270px;
+  width: 250px;
 }
 
 .skill-React {
@@ -62,27 +60,27 @@
 }
 
 .skill-Redux {
-  width: 310px;
+  width: 300px;
 }
 
 .skill-Redux-now {
-  width: 290px;
+  width: 280px;
 }
 
 .skill-Solving {
-  width: 300px;
+  width: 270px;
 }
 
 .skill-Solving-now {
-  width: 250px;
+  width: 240px;
 }
 
 .skill-Courage {
-  width: 300px;
+  width: 290px;
 }
 
 .skill-Courage-now {
-  width: 280px;
+  width: 270px;
 }
 
 .skill-English {
@@ -90,15 +88,15 @@
 }
 
 .skill-English-now {
-  width: 200px;
+  width: 210px;
 }
 
 .skill-Active {
-  width: 300px;
+  width: 290px;
 }
 
 .skill-Active-now {
-  width: 270px;
+  width: 260px;
 }
 
 .skill-New {
@@ -109,4 +107,14 @@
   width: 120px;
   background: rgb(51, 162, 210) !important;
   background: linear-gradient(90deg, #035680 0%,rgb(51, 162, 210) 70%) !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .skills .skill{
+    height: 31.8px !important;
+  }
+
+  .skills .skill .now{
+    height: 32px !important;
+  }
 }

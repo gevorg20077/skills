@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  width: 100%;
 }
 
 .a{
@@ -123,8 +123,6 @@
   .octopus {
     transform: rotate(-90deg);
     margin-top: 150px !important;
-    /* width: 570px !important; */
-    /* height: 350px; */
   }
 
   .eyes {
@@ -141,3 +139,4 @@
     margin-top: 130px;
   }
 }
+

@@ -8,7 +8,7 @@
 }
 
 .skills .skill {
-  height: 40px;
+  height: 30px;
   background-color: #035680;
   display: flex;
   font-weight: 400;
@@ -114,5 +114,8 @@
   .skills{
     height: 100%;
     gap: 5.35px;
+  }
+  .skill{
+    height: 28px !important;
   }
 }

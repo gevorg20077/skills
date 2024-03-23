@@ -7,7 +7,7 @@ const Octopus = () => {
         <Skills />
         <div className="body"></div>
         <div className="head">
-          <div class="eyes"></div>
+          <div className="eyes"></div>
         </div>
       </div>
       <div className="variants">

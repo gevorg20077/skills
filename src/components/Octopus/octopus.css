@@ -1,19 +1,27 @@
 .container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .octopus {
   display: flex;
   margin-top: 100px;
-  width: 400px;
+  width: 622px;
 }
 
 .octopus .head {
-  width: 250px;
-  height: 490px;
   border-radius: 0 100% 100% 0 / 0 50% 50% 0;
   background: rgb(51, 162, 210);
+  width: 100%;
 }
 
 .octopus .head .eye {
@@ -48,8 +56,8 @@
 }
 
 .octopus .body {
-  width: 100px;
-  height: 490px;
+  width: 100%;
+  /* height: 490px; */
   background-color: rgb(51, 162, 210);
   transform: translateX(1px);
 }
@@ -115,6 +123,8 @@
   .octopus {
     transform: rotate(-90deg);
     margin-top: 150px !important;
+    /* width: 570px !important; */
+    /* height: 350px; */
   }
 
   .eyes {
@@ -125,16 +135,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 220px !important;
-    height: 400px !important;
   }
 
   .variants {
     margin-top: 130px;
-  }
-
-  .body{
-    height: 400px !important;
-    width: 50px !important;
   }
 }

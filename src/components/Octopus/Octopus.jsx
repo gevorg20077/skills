@@ -3,6 +3,7 @@ import './octopus.scss'
 const Octopus = () => {
   return (
     <div className='container'>
+      <h1 className='name'>Gevorg Machkalyan</h1>
       <div className="octopus">
         <Skills />
         <div className="octopus__eyes"></div>

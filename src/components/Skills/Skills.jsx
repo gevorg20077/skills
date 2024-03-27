@@ -1,40 +1,49 @@
-import './skills.css'
+import './skills.scss'
 const Skills = () => {
   return (
     <div className="skills">
-      <div className="skill skill-HTML">
-        <div className="now skill-HTML-now"><p>HTML</p></div>
-      </div>
-      <div className="skill skill-CSS">
-        <div className="now skill-CSS-now"><p>CSS</p></div>
-      </div>
-      <div className="skill skill-JS">
-        <div className="now skill-JS-now"><p>JavaScript</p></div>
-      </div>
-      <div className="skill skill-React">
-        <div className="now skill-React-now"><p>React.js</p></div>
-      </div>
-      <div className="skill skill-Redux">
-        <div className="now skill-Redux-now"><p>Redux</p></div>
-      </div>
-      <div className="skill skill-Solving">
-        <div className="now skill-Solving-now"><p>Problem solving</p></div>
-      </div>
-      <div className="skill skill-English">
-        <div className="now skill-English-now"><p>English</p></div>
-      </div>
-      <div className="skill skill-Courage">
-        <div className="now skill-Courage-now"><p>Courage</p></div>
-      </div>
-      <div className="skill skill-Active">
-        <div className="now skill-Active-now"><p>Active</p></div>
-      </div>
-      <div className="skill skill-New">
-        <div className="now skill-New-now"><p>New skill</p></div>
-      </div>
-      <div className="skill skill-New">
-        <div className="now skill-New-now"><p>New skill</p></div>
-      </div>
+      <dl className="skills__skill skills__HTML">
+        <dt className="skills__now skills__HTML_now">HTML</dt>
+        <dd className='skills__percent'>90%</dd>
+      </dl>
+      <dl className="skills__skill skills__CSS">
+        <dt className="skills__now skills__CSS_now">CSS</dt>
+        <dd className='skills__percent'>80%</dd>
+      </dl>
+      <dl className="skills__skill skills__JS">
+        <dt className="skills__now skills__JS_now">JavaScript</dt>
+        <dd className='skills__percent'>86%</dd>
+      </dl>
+      <dl className="skills__skill skills__React">
+        <dt className="skills__now skills__React_now">React.js</dt>
+        <dd className='skills__percent'>88%</dd>
+      </dl>
+      <dl className="skills__skill skills__Redux">
+        <dt className="skills__now skills__Redux_now">Redux</dt>
+        <dd className='skills__percent'>90%</dd>
+      </dl>
+      <dl className="skills__skill skills__Solving">
+        <dt className="skills__now skills__Solving_now">Problem solving</dt>
+        <dd className='skills__percent'>78%</dd>
+      </dl>
+      <dl className="skills__skill skills__English">
+        <dt className="skills__now skills__English_now">English</dt>
+        <dd className='skills__percent'>70%</dd>
+      </dl>
+      <dl className="skills__skill skills__Courage">
+        <dt className="skills__now skills__Courage_now">Courage</dt>
+        <dd className='skills__percent'>80%</dd>
+      </dl>
+      <dl className="skills__skill skills__Active">
+        <dt className="skills__now skills__Active_now">Active</dt>
+        <dd className='skills__percent'>90%</dd>
+      </dl>
+      <dl className="skills__skill skills__New">
+        <dt className="skills__now skills__New_now">New skill</dt>
+      </dl>
+      <dl className="skills__skill skills__New">
+        <dt className="skills__now skills__New_now">New skill</dt>
+      </dl>
     </div>
   )
 }

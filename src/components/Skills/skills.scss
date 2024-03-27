@@ -1,0 +1,158 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 5.9px;
+  transform: translate(2px);
+  height: 100%;
+  width: 31%;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    right: -148px;
+    background-color: rgb(51, 162, 210);
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    background: rgb(51, 162, 210);
+    width: 200px;
+    height: 100%;
+    right: -345px;
+  }
+
+  &__skill {
+    margin: 0;
+    height: 34px;
+    background-color: #035680;
+    display: flex;
+    font-weight: 400;
+    color: white;
+    justify-content: end;
+    align-items: center;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+  }
+
+  &__now {
+    background: rgb(51, 162, 210);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+  }
+
+  &__percent {
+    position: absolute;
+  }
+
+  &__HTML {
+    width: 95%;
+  }
+
+  &__HTML_now {
+    width: 90%;
+  }
+
+  &__CSS {
+    width: 90%;
+  }
+
+  &__CSS_now {
+    width: 80%;
+  }
+
+  &__JS {
+    width: 92%;
+  }
+
+  &__JS_now {
+    width: 88%;
+  }
+
+  &__React {
+    width: 93%;
+  }
+
+  &__React_now {
+    width: 90%;
+  }
+
+  &__Redux {
+    width: 95%;
+  }
+
+  &__Redux_now {
+    width: 90%;
+  }
+
+  &__Solving {
+    width: 80%;
+  }
+
+  &__Solving_now {
+    width: 85%;
+  }
+
+  &__Courage {
+    width: 80%;
+  }
+
+  &__Courage_now {
+    width: 90%;
+  }
+
+  &__English {
+    width: 70%;
+  }
+
+  &__English_now {
+    width: 80%;
+  }
+
+  &__Active {
+    width: 90%;
+  }
+
+  &__Active_now {
+    width: 90%;
+  }
+
+  &__New {
+    background-color: transparent !important;
+  }
+
+  &__New_now {
+    width: 120px;
+    background: rgb(51, 162, 210) !important;
+    background: linear-gradient(90deg, #035680 0%, rgb(51, 162, 210) 70%) !important;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  .skills {
+    gap: 5.35px;
+    width: 330px;
+
+    &::after {
+      width: 50px;
+      right: -49px;
+    }
+
+    &::before {
+      right: -248px;
+    }
+
+    &__skill {
+      height: 28px !important;
+    }
+  }
+}

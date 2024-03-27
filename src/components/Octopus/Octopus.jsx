@@ -1,18 +1,15 @@
 import Skills from '../Skills/Skills'
-import './octopus.css'
+import './octopus.scss'
 const Octopus = () => {
   return (
     <div className='container'>
       <div className="octopus">
         <Skills />
-        <div className="body"></div>
-        <div className="head">
-          <div className="eyes"></div>
-        </div>
+        <div className="octopus__eyes"></div>
       </div>
       <div className="variants">
-        <p className="now">Now</p>
-        <p className="aYearLater">1 year later</p>
+        <p className="variants__now">Now</p>
+        <p className="variants__1_year_later">1 year later</p>
       </div>
     </div >
   )
